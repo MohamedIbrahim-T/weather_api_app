@@ -1,0 +1,51 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wholediv input{
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+width: 80%;
+}
+
+.wholediv ul li{
+    padding: 10px;
+    font-size: 20px;
+
+}
+.wholediv{
+    background-color: rgb(119, 213, 119);
+    padding: 10px;
+ width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+.wholediv button{
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.wholediv button:hover{
+    background-color: white;
+    color: black;
+}
+.wholediv p{
+    font-size: 19px;
+    
+    
+}
+.container{
+    background-color: black;
+   padding: 20px 0px 20px 0px;
+}
+@media screen and (max-width:350px) {
+    .wholediv{
+        width:100%;
+    }
+    .container{
+        padding: 0;
+    }
+}
